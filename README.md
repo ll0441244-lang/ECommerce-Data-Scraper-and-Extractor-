@@ -1,1 +1,19 @@
-# ECommerce-Data-Scraper-and-Extractor-
+# 📊 Automated E-Commerce Data Scraper
+
+## 📝 Project Overview
+This is a production-ready Python web scraper designed to automatically extract product data (Titles, Prices, and Availability) from e-commerce websites. The script handles data cleaning and exports the final structured data into clean **CSV** and **Excel** formats, optimized for business analysis.
+
+## 🛠️ Tech Stack & Tools
+- **Python 3**
+- **BeautifulSoup4** (HTML Parsing)
+- **Requests** (HTTP Client)
+- **Pandas** (Data Manipulation & Export)
+
+## 🎯 Key Features
+- **Data Cleaning:** Automatically strips whitespace and cleans price symbols.
+- **Production-Ready:** Includes error handling for network requests (Status Codes).
+- **Multi-Format Export:** Saves data instantly to both `.csv` and `.xlsx` formats.
+
+## 📁 Repository Structure
+- `scraper.py`: The main Python script.
+- `extracted_books_data.csv`: Sample of the cleaned output data.
